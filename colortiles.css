@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+a {
+    font-size: 1.2em;
+    text-align: center;
+    border: 3px solid white;
+}
+a:hover {
+    font-size: 1.4em;
+    font-weight: bold;
+    text-decoration: none;
+}
+.cranberry {
+    background: #9f000f;
+    color: white;
+}
+.khaki {
+    background: #ada96e;
+}
+.saffron {
+    background: #fbb917;
+}
+.turquoise {
+    background: #43C6DB;
+}
+
+.dummy {
+    margin-top: 100%;
+}
+.square {
+    position: absolute;
+    top: 15px;
+    bottom: 0;
+    left: 15px;
+    right: 0;
+    text-align:center;
+    padding-top:calc(50% - 30px);
+}
