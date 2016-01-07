@@ -12,9 +12,18 @@
     </head>
     <body>
         <div class="container">
-            <h1>Guessing Game</h1>
-            <p>I am thinking of one of the colors in the tiles below. Can you guess which one it is?</p>
-            <p>Please click on a tile to make a guess.</p>
+            
+            <div class="row">
+                <div class="col-xs-12 col-sm-3 col-sm-offset-2">
+                    <img class="img-responsive" src="compthink.png">
+                </div>
+                <div class="col-xs-12 col-sm-5">
+                    <h1>Guessing Game</h1>
+                    <p>I am thinking of one of the colors in the tiles below. Can you guess which one it is?</p>
+                    <p>Please click on a tile to make a guess.</p>
+                    <p id="result" class="center">...</p>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-xs-6 col-sm-3">
                     <div class="dummy">
@@ -37,8 +46,16 @@
                     </div>
                 </div>
             </div>
+            <div class="row center">
+                <button id="resetbtn" class="btn btn-primary">Reset</button>
+                <button id="aboutbtn" class="btn btn-info">About</button>
+            </div>
+            <div class="row center collapse" id="about">
+                <p>This is a simple demonstration of the use of CSS and Javascript for Coursera's Build a Responsive Web Page Assignment.</p>
+            </div>
         </div>
         <script src="jquery-1.11.3.min.js"></script>
-        <script src="bootstrap.min.js"></script>
+        <!-- <script src="bootstrap.min.js"></script> -->
+        <script src="colortiles.js"></script>
     </body>
 </html>

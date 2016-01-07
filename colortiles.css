@@ -2,25 +2,22 @@ body {
     font-family: Arial, sans-serif;
 }
 
-h1 {
+h1, p {
     text-align: center;
 }
-p {
+.center {
+    margin-top: 10px;
     text-align: center;
 }
 a {
     font-size: 1.2em;
-    text-align: center;
-    border: 3px solid white;
 }
 a:hover {
     font-size: 1.4em;
     font-weight: bold;
-    text-decoration: none;
 }
 .cranberry {
     background: #9f000f;
-    color: white;
 }
 .khaki {
     background: #ada96e;
@@ -42,5 +39,18 @@ a:hover {
     left: 15px;
     right: 0;
     text-align:center;
+    text-transform: uppercase;
     padding-top:calc(50% - 30px);
+}
+.wrong {
+    background: black;
+    color: black;
+}
+a.wrong:link, a.wrong:hover, a.wrong:active, a.wrong:visited {
+    color: black;
+}
+#result {
+    color: #9f000f;
+    font-weight: bold;
+    font-style: italic;
 }
